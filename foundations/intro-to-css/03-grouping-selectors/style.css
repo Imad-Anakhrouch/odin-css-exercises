@@ -1,1 +1,12 @@
-/* Add CSS Styling */
+.btnone , .btntwo{
+font-family: Helvetica, "Times New Roman", sans-serif;
+font-size: 28px;
+}
+
+.btnone{
+ background-color: black;
+ color: white;
+}
+.btntwo{
+    background-color: yellow;
+}
