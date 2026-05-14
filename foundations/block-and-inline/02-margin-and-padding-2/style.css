@@ -1,13 +1,11 @@
 body {
   background: #eee;
   font-family: sans-serif;
-
-
 }
 
 .card {
   width: 400px;
-  background: #fff;
+  background: white;
   margin: 16px auto;
   padding: 8px;
 
@@ -39,3 +37,12 @@ button {
   padding: 8px 24px;
 
 }
+
+h1 {
+  margin: 0;
+}
+
+<!-- ohne margin : 0 ; bei h1 würde es einen Abstand zum oberen Rand geben, 
+da h1 standardmäßig einen margin-top von 16px hat. 
+Durch die Angabe von margin: 0; wird dieser Abstand entfernt 
+und der Text beginnt direkt am oberen Rand des Elements. -->
